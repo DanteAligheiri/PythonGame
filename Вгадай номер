@@ -7,7 +7,7 @@ def greet_player():
 def get_user_guess(attempt):
     while True:
         try:
-            guess = int(input(f"Спроба {attempt}: Введи число: "))
+            guess = int(input(f"Спроба {attempt}: Введи число: 7"))
             if 1 <= guess <= 100:
                 return guess
             else:
